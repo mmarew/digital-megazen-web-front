@@ -1,0 +1,127 @@
+#searchProduct {
+  display: flex;
+  max-width: 300px;
+  margin: 10px 0;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.productContainer {
+  max-width: 700px;
+  /* margin: auto; */
+}
+.searchTitle {
+  /* text-align: center; */
+}
+.searchBtn {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* table,
+th,
+td {
+  border: 1px solid;
+} */
+.updateProducts {
+  width: fit-content;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  display: none;
+}
+.trProductName td {
+  max-width: fit-content;
+}
+.trProductName td input {
+  max-width: fit-content;
+}
+
+.searchInputs {
+  flex-direction: column;
+  display: none;
+  margin-top: 20px;
+}
+#costTable {
+  max-width: 500px;
+}
+
+.btnUpdateCost {
+  background-color: blue;
+  margin: 3px;
+  color: white;
+  display: none;
+}
+
+.productContainer td {
+  /* margin: 0 !important; */
+  padding: 0 !important;
+  /* padding: 10px !important; */
+}
+
+.updateExpences {
+  /* background-color: blue; */
+  /* padding: 5px; */
+  cursor: pointer;
+  /* margin: 15px; */
+  /* color: white; */
+}
+.editExpences {
+  padding: 10px !important;
+  cursor: pointer;
+}
+.editExpences:hover {
+  background-color: yellow;
+}
+.editableTd {
+  background: aqua;
+}
+.cancelExpeEditing {
+  background-color: yellow;
+  /* padding: 5px; */
+  cursor: pointer;
+}
+.searchedDatas td {
+  height: 30px;
+}
+.editableTD {
+  background-color: aqua;
+}
+.cancelOrEditTransaction {
+  cursor: pointer;
+}
+.cancelOrEditTransaction:hover {
+  background-color: yellow;
+}
+.updateTransaction {
+  background-color: green;
+  padding: 8px;
+  margin: 2px;
+  cursor: pointer;
+}
+.updateProducts {
+  cursor: pointer;
+}
+.productList {
+  background-color: #ffffff;
+  width: fit-content;
+  padding: 20px 30px 20px 30px;
+  margin: 5px;
+}
+.productListWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  #searchProduct {
+    margin: 10px 0;
+  }
+  .searchTitle {
+    text-align: left;
+  }
+}

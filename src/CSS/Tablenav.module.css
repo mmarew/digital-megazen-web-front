@@ -1,0 +1,16 @@
+.tableHead {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.expandLess,
+.expandMore {
+  color: white;
+}
+
+.iconButtonExpandOrMinimize {
+  background-color: rgb(25, 118, 210) !important;
+}

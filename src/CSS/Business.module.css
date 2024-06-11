@@ -1,0 +1,108 @@
+.createdBusinessWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.MainBusinessWrapper {
+  display: flex;
+  justify-content: center;
+}
+.LeftSideBusinessWrapper {
+  display: none;
+}
+.createBusiness {
+  max-width: fit-content;
+  margin-left: 15px !important;
+}
+.Business {
+  margin-top: 10px;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  background-color: white;
+  border-radius: 10px;
+}
+.welcomeMessage {
+  text-align: center;
+}
+.BusinessWrapper {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.businessName {
+  padding: 10px;
+}
+.businessButton {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.businessButton button {
+  border: none;
+  margin: 0 5px;
+}
+.updateWrapper {
+  display: none;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.updateWrapper div {
+  text-align: center;
+  margin-top: 20px;
+}
+.updateWrapper input {
+  max-width: 300px;
+  padding: 7px;
+}
+.updateWrapper div button {
+  margin: 0 5px;
+}
+.LinearProgress {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .noBusinessMessage {
+    padding: 20px;
+  }
+  .welcomeMessage {
+    text-align: left;
+    margin-left: 20px;
+  }
+  .createdBusinessWrapper {
+    justify-content: flex-start;
+  }
+  .LeftSideBusinessWrapper {
+    width: 20vw;
+    min-width: 250px;
+    background-color: white;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+  }
+  .LeftSideBusinessWrapper li:nth-child(1) {
+    color: #fff;
+    background-color: #6998ff;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .LeftSideBusinessWrapper li:nth-child(1) div img {
+    filter: invert(100%) brightness(600%);
+  }
+  .MainBusinessWrapper {
+    justify-content: flex-start;
+  }
+
+  .RightSideBusinessWrapper {
+    width: 0vw;
+  }
+}
+.descriptionOfBusiness {
+  font-size: 16px;
+  /* font-style: italic; */
+}

@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(240, 242, 245);
+  color: #2e2e2e;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 100px;
+  font-family: "Plus Jakarta Sans";
+}
+button {
+  cursor: pointer;
+}
+.leftSideDiv {
+  display: none;
+}
+
+.TableCell div {
+  text-align: left;
+}
+td {
+  min-width: 90px;
+}
+.thTitle {
+  font-weight: bold !important;
+  /* color: aqua !important; */
+}
+.tableHeader {
+  background-color: rgba(50, 256, 100, 0.5);
+}
+
+@media screen and (min-width: 768px) {
+  .leftSideDiv {
+    display: block;
+  }
+}

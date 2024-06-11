@@ -1,0 +1,44 @@
+.singleTransactionForm {
+  width: 310px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.getProducts {
+  background-color: green;
+  color: white;
+  padding: 5px;
+
+  margin: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.getOrRegisterProducts {
+  display: flex;
+}
+.getOrRegisterProducts button {
+  padding: 2px 20px;
+  margin: 10px;
+  width: fit-content !important;
+}
+.formToSearchItems {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+}
+.searchedProductsLists {
+  background-color: white;
+  width: 300px;
+  /* margin: 10px auto; */
+  padding: 20px;
+}
+.btnAddTotalSales {
+  margin: 10px auto !important;
+  padding: 0 10px;
+}

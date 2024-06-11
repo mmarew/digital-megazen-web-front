@@ -1,0 +1,65 @@
+.userRegistrationForm {
+  width: 90%;
+  max-width: 500px;
+  background-color: white;
+  padding: 0 30px 20px 30px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+  gap: 10px;
+}
+.userRegistrationSubmitBtn {
+  margin: 20px 0;
+}
+#LinearProgress2 {
+  display: none;
+}
+
+.registerationFormWrapper {
+  display: flex;
+  background-color: white;
+  height: 100vh;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.titleCreateAccount {
+  text-align: center;
+  /* padding: 0 10px; */
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 45px;
+
+  /* background: #2a2a2a80; */
+}
+.subTitleCreateAccount {
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.rightSideWrapper {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .rightSideWrapper {
+    display: block;
+  }
+  .rightSideWrapper {
+    width: 50%;
+  }
+  .leftsideWrapper {
+    width: 45%;
+    padding: 5%;
+    color: rgba(42, 42, 42, 0.5);
+  }
+  .registerationFormWrapper {
+    flex-direction: row;
+  }
+}

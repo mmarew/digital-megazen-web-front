@@ -1,0 +1,7 @@
+.salesOrExpences:hover {
+  color: white !important;
+  background-color: black !important;
+}
+.activeClass {
+  border-bottom: 3px solid white !important;
+}

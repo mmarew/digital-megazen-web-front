@@ -1,0 +1,12 @@
+.totalOrsingleSales {
+  text-decoration: none;
+  color: black;
+}
+.selectSalesMenue {
+  width: 300px;
+}
+.addSalesWrapper {
+  /* background-color: white; */
+  /* width: fit-content; */
+  padding: 30px 0;
+}

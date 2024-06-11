@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.helpContainer {
+  display: flex;
+  width: 100%;
+}
+.LeftHelpContainer {
+  width: 20vw;
+  min-width: 250px;
+  display: flex;
+  background-color: white;
+  height: 100vh;
+}
+.LeftHelpContainer li:nth-child(3) {
+  border-radius: 5px;
+  background: #6998ff;
+  color: #fff;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.LeftHelpContainer li:nth-child(3) div img {
+  filter: invert(100%) brightness(200%);
+}
+
+.helpMiddelContainer {
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+.helpContainer h1,
+.helpContainer h3 {
+  text-align: center;
+}
+.helpUL {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: first baseline;
+}
+.helpUL li {
+  max-width: 400px;
+  width: 90%;
+  background-color: white;
+  padding: 20px 0;
+  margin: 10px;
+}
+.backButton {
+  background-color: green;
+  border: none;
+  padding: 10px;
+  margin: 10px auto;
+  color: white;
+  border-radius: 10px;
+}
+.helpContact {
+  list-style: none;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.helpContact li {
+  padding: 5px;
+  margin: 5px;
+}
+@media screen and (min-width: 760px) {
+  .helpMiddelContainer {
+    width: 80%;
+  }
+  .helpUL {
+    justify-content: left;
+  }
+  .helpContact,
+  .helpContainer h1,
+  .helpContainer h3 {
+    text-align: left;
+    margin-left: 20px;
+  }
+}

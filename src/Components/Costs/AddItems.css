@@ -1,0 +1,27 @@
+.salesAndCostItems {
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+  /* border-radius: 10px; */
+  margin: 0 5px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.salesAndCostItems:hover {
+  color: rgb(132, 132, 255);
+}
+.salesAndCostItemsWrapper {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.activeClass {
+  border-bottom: 2px solid rgb(132, 132, 255);
+}
+@media only screen and (min-width: 768px) {
+  .salesAndCostItemsWrapper {
+    justify-content: left;
+  }
+}

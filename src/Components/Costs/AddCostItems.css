@@ -1,0 +1,18 @@
+.form-add-cost {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.form-add-cost button {
+  margin: 5px;
+}
+.dates {
+  width: 100%;
+}
+.titleToRegistrationForm {
+  padding-top: 10px;
+  width: fit-content;
+  margin: auto;
+}

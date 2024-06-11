@@ -1,0 +1,128 @@
+.openBusinesswrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.iconButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Title {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+.navBar {
+  display: block;
+  position: fixed;
+  bottom: 1px;
+  width: 100%;
+  z-index: 20;
+  box-shadow: 15px 5px 10px 5px #888888;
+}
+.openBusinessHeader {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+.registerViewSearch {
+  width: 100%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-around;
+  max-width: 500px;
+  margin: auto;
+}
+.registerViewSearch .openBusinessTab {
+  border: 0px;
+  padding: 5px;
+  /* border-radius: 10px; */
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: end;
+}
+
+#dateId {
+  margin: 10px auto;
+  display: block;
+}
+
+.activeLink {
+  /* display: none; */
+  border-bottom: 10px rgb(75, 75, 237) solid;
+}
+.activeLink button {
+  padding-bottom: 0;
+}
+
+table {
+  width: fit-content;
+}
+
+.welcomeInfo {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.32px;
+  text-align: left;
+
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+}
+/* word wrap, formatter(prettier then tic tic), preview (untick work bench) */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content {
+  color: black;
+}
+.LinearProgress {
+  margin: 5px 0;
+  display: none;
+}
+
+.MainWrapper {
+  display: flex;
+}
+.leftSideDiv {
+  background-color: white;
+  width: 20vw;
+  min-width: fit-content;
+  margin-right: 1vw;
+}
+.middeleSideDiv {
+  width: 100%;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .navBar {
+    display: none;
+  }
+  .welcomeInfo {
+    text-align: left;
+  }
+}
